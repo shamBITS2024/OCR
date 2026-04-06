@@ -1,0 +1,25 @@
+# Core data and PDF handling
+pandas
+numpy
+Pillow
+PyMuPDF
+
+# OCR and table extraction
+pdfplumber
+pdf2image
+pytesseract
+torch
+transformers
+accelerate
+docling
+easyocr
+
+# Analytics
+scikit-learn
+
+# Excel export used by test.py
+openpyxl
+
+# System dependencies not installed by pip:
+# - pdf2image requires Poppler to be installed and available on PATH.
+# - pytesseract requires the Tesseract OCR binary to be installed.
