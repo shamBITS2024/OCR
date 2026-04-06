@@ -1,0 +1,6 @@
+.conda
+.github
+.venv
+.vscode
+__pycache__
+annexure_text

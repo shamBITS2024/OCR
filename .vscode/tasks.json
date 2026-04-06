@@ -1,0 +1,78 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run anomaly_detector.py",
+			"type": "shell",
+			"command": "D:/Office/ocr_jobs/.venv/Scripts/python.exe",
+			"args": [
+				"anomaly_detector.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$pytest-python"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Run anomaly_detector.py (verify)",
+			"type": "shell",
+			"command": "D:/Office/ocr_jobs/.venv/Scripts/python.exe",
+			"args": [
+				"anomaly_detector.py"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Run anomaly_detector.py (verify 2)",
+			"type": "shell",
+			"command": "D:/Office/ocr_jobs/.venv/Scripts/python.exe",
+			"args": [
+				"anomaly_detector.py"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Run anomaly_detector.py (export+plots)",
+			"type": "shell",
+			"command": "D:/Office/ocr_jobs/.venv/Scripts/python.exe",
+			"args": [
+				"anomaly_detector.py"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Run anomaly_detector.py (finalize exports)",
+			"type": "shell",
+			"command": "D:/Office/ocr_jobs/.venv/Scripts/python.exe",
+			"args": [
+				"anomaly_detector.py"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Run anomaly_detector.py (user request)",
+			"type": "shell",
+			"command": "D:/Office/ocr_jobs/.venv/Scripts/python.exe",
+			"args": [
+				"anomaly_detector.py"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Run anomaly_detector.py (after syntax fix)",
+			"type": "shell",
+			"command": "D:/Office/ocr_jobs/.venv/Scripts/python.exe",
+			"args": [
+				"anomaly_detector.py"
+			],
+			"isBackground": false,
+			"group": "build"
+		}
+	]
+}

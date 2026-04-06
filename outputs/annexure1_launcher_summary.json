@@ -1,0 +1,40 @@
+{
+  "started_at_utc": "2026-04-06T18:37:41.692093+00:00",
+  "data_dir": "D:\\Office\\ocr_jobs\\data",
+  "output_root": "D:\\Office\\ocr_jobs\\outputs",
+  "log_dir": "D:\\Office\\ocr_jobs\\outputs\\logs",
+  "engines": [
+    {
+      "engine": "docling",
+      "script": "D:\\Office\\ocr_jobs\\extract_annexure1_tables_docling.py",
+      "python": "D:\\Office\\ocr_jobs\\.venv\\Scripts\\python.exe",
+      "output_dir": "outputs\\docling",
+      "log_file": "outputs\\logs\\docling.log",
+      "command": [
+        "D:\\Office\\ocr_jobs\\.venv\\Scripts\\python.exe",
+        "D:\\Office\\ocr_jobs\\extract_annexure1_tables_docling.py",
+        "--data-dir",
+        "data",
+        "--output-dir",
+        "outputs\\docling",
+        "--pdf-glob",
+        "*.pdf",
+        "--target-annexure",
+        "1",
+        "--max-annexure-pages",
+        "20",
+        "--force-full-page-ocr",
+        "--ocr-lang",
+        "en",
+        "--log-file",
+        "outputs\\logs\\docling.log",
+        "--log-level",
+        "INFO"
+      ],
+      "returncode": 3221225477,
+      "status": "failed"
+    }
+  ],
+  "finished_at_utc": "2026-04-06T18:42:26.774540+00:00",
+  "status": "failed"
+}
